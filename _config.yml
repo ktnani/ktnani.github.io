@@ -1,0 +1,149 @@
+# Site
+repository: ktnani/ktnani.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Koushik Tirumanyam
+title: Student at Bradley University, Peoria and Intern at VirtuSense Technologies
+email: koushik.t29@gmail.com
+website: https://ktnani.github.io/
+website_title: Web Profile (CV)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username: ktnani
+linkedin_username: koushik-reddy-6976581a0
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.png
+about_content: |
+  My name is Koushik and I am currently studying <mark>Masters in Computer Science</mark> at <mark>Bradley University, Peoria, Illinois</mark>.
+
+  I am also working as an <mark>Intern</mark> at <mark>VirtuSense Technologies</mark>.
+
+content:
+  # ----------------
+  # Projects section
+  # ----------------
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title: Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title: Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+
+  # ------------------
+  # Experience section
+  # ------------------
+  - title: Experience
+    layout: list
+    content:
+      - layout: top-left
+        title: VirtuSense Technologies
+        sub_title: Software Engineering Intern
+        caption: August 2022 - present
+        link: https://www.virtusense.ai/
+        description: |
+          - Achieved a faster way to update the release versions in VIRTUSENSE devices using FLASK (Python framework)
+          - Achieved a proficient way to test our products using automation scripts
+          - Played an important role in my team to fix bugs in VST ALERT algorithm
+          - Part of thinktank to discuss the issues of algorithms and comeup with solutions to eradicate them
+
+      - layout: top-left
+        title: Bradley University
+        sub_title: Graduate Assistant
+        caption: August 2022 - present
+        link: https://www.virtusense.ai/
+        description: |
+          - Conduct interactive sessions with students to clear their doubts in their subjects and coding assignments
+          - Worked on research work in Machine Learning models
+          - Helped my professors in grading exams
+
+  # -----------------
+  # Education section
+  # -----------------
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: Bradley University
+        sub_title: Master of Science
+        caption: 2021 - 2022
+        # quote: >
+        description: |
+          I am currently studying Master of Science (Computer Science) at Bradley University, Peoria, Illinois. My graduation is due in December, 2022.
+
+          The main subjects that I have studied so far are Software Engineering, Software Project Management, Database Management Systems, Data Science, Machine Learning and Data Mining.
+
+      - layout: top-left
+        title: JNTU Anantapur
+        sub_title: Bachelor of Technology
+        caption: 2013 - 2017
+        description: |
+          I studied Bachelor of Technology (Electronics and Communications Engineering) at Jawaharlal Nehru Technological University, Anantapur, India.
+
+  # --------------
+  # Extras section
+  # --------------
+  - title: A Little More About Me
+    layout: text
+    content: |
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
+  ]
