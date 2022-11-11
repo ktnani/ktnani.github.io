@@ -79,6 +79,15 @@ content:
 
           The toolset we used - <mark>Python</mark>, <mark>Jupyter notebooks</mark>, <mark>Pandas</mark>, <mark>Matplotlib</mark>, <mark>Seaborn</mark>.
 
+      - layout: top-left
+        title: WIoT Project
+        description: |
+          WIoT (Weather IoT) is a weather monitoring project that uses IoT to make use of real time data that can be easily accessible over a very wide range of sensors.
+          IoT sensors' data from weather and climate changes like temperature, humidity, wind speed, moisture are sent using multiple sensors. 
+          These sensors send the data to the IoT hub in the cloud. The data is available through APIs.
+
+          The toolset we used - <mark>Python</mark>, <mark>requests (for fetching API data)</mark>, <mark>Jupyter notebooks</mark>, <mark>Pandas</mark>, <mark>Matplotlib</mark>, <mark>Seaborn</mark>.
+
   # -----------------
   # Education section
   # -----------------
