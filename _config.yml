@@ -34,31 +34,6 @@ about_content: |
   I am open to explore more opportunities in data analysis, data science and machine learning.
 
 content:
-  # ----------------
-  # Projects section
-  # ----------------
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border:
-          weak # Value of `weak` will display a weak border below this item. # Any
-          # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-
   # ------------------
   # Experience section
   # ------------------
@@ -85,6 +60,24 @@ content:
           - Conduct interactive sessions with students to clear their doubts in their subjects and coding assignments
           - Worked on research work in Machine Learning models
           - Helped my professors in grading exams
+
+  # ----------------
+  # Projects section
+  # ----------------
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-left
+        title: Smart Meters Project
+        description: | # this will include new lines to allow paragraphs
+          **Smart Meters** is an initiative project for replacing the traditional electricity meters from the government of India which started in 2020. 
+          The initiative project started with a few datahubs and smart meters deployment in key cities. As part of the project, we looked into the data 
+          from the datahubs, performed data analysis from time to time to observe the trends and usage of the grids and electricity consumption from different areas of the cities.
+          The key idea of this initiative project is to understand the financial gains and losses incurring to the government by transcending to smart / digital solultions by 
+          moving away from the traditional meters. As a team of data analysts, we reported monthly and quarterly insights so that the local electricity boards 
+          efficiently managed the deployment and behavior of the usage from the localities, forecasting the consumption and demand over the time.
+
+          The toolset we used - <mark>Python</mark>, <mark>Jupyter notebooks</mark>, <mark>Pandas</mark>, <mark>Matplotlib</mark>, <mark>Seaborn</mark>.
 
   # -----------------
   # Education section
