@@ -29,9 +29,9 @@ linkedin_username: koushik-reddy-6976581a0
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png
 about_content: |
-  My name is Koushik and I am currently studying <mark>Masters in Computer Science</mark> at <mark>Bradley University, Peoria, Illinois</mark>.
-
-  I am also working as an <mark>Intern</mark> at <mark>VirtuSense Technologies</mark>.
+  My name is Koushik and I am currently studying <mark>Masters in Computer Science</mark> at <mark>Bradley University, Peoria, Illinois</mark>. I am also working as a <mark>Software Engineering Intern</mark> at <mark>VirtuSense Technologies</mark>.
+  I love all things about <mark>data</mark>. The tech-stack that I use for <mark>data analysis</mark> are <mark>Python</mark>, <mark>SQL</mark>, <mark>Numpy</mark>, <mark>Pandas</mark>, <mark>Matlplotlib</mark>, and <mark>Seaborn</mark>. 
+  I am open to explore more opportunities in data analysis, data science and machine learning.
 
 content:
   # ----------------
@@ -79,8 +79,8 @@ content:
       - layout: top-left
         title: Bradley University
         sub_title: Graduate Assistant
-        caption: August 2022 - present
-        link: https://www.virtusense.ai/
+        caption: January 2022 - May 2022
+        link: https://www.bradley.edu/
         description: |
           - Conduct interactive sessions with students to clear their doubts in their subjects and coding assignments
           - Worked on research work in Machine Learning models
@@ -95,19 +95,19 @@ content:
       - layout: top-left
         title: Bradley University
         sub_title: Master of Science
-        caption: 2021 - 2022
+        caption: July 2021 - December 2022
         # quote: >
         description: |
-          I am currently studying Master of Science (Computer Science) at Bradley University, Peoria, Illinois. My graduation is due in December, 2022.
+          I am currently studying <mark>Master of Science (Computer Science)</mark> at <mark>Bradley University</mark>, Peoria, Illinois. My graduation is due in <mark>December, 2022</mark>.
 
-          The main subjects that I have studied so far are Software Engineering, Software Project Management, Database Management Systems, Data Science, Machine Learning and Data Mining.
+          The main subjects that I have studied so far are <mark>Software Engineering</mark>, <mark>Software Project Management</mark>, <mark>Database Management Systems</mark>, <mark>Data Science</mark>, <mark>Machine Learning</mark> and <mark>Data Mining</mark>.
 
       - layout: top-left
         title: JNTU Anantapur
         sub_title: Bachelor of Technology
         caption: 2013 - 2017
         description: |
-          I studied Bachelor of Technology (Electronics and Communications Engineering) at Jawaharlal Nehru Technological University, Anantapur, India.
+          I studied <mark>Bachelor of Technology (Electronics and Communications Engineering)</mark> at <mark>Jawaharlal Nehru Technological University</mark>, Anantapur, India.
 
   # --------------
   # Extras section
